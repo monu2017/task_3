@@ -1,4 +1,4 @@
-FROM FROM ubuntu:16.04
+FROM ubuntu:16.04
 RUN yum install httpd -y
 
 CMD /usr/sbin/httpd -DFOREGROUND
